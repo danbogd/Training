@@ -73,27 +73,17 @@ git init // локально
 
 readme.md
 
-git add 
-
- // как локальный репозиторий "подружить" с нашим удаленным.
-
-git remote -v // проверка правильно "соединили" локальный репозиторий с удаленным 
-
+git add .
 потом git commit -m "initial commit"
 
+ // как локальный репозиторий "подружить" с нашим удаленным.
+git remote add origin https://github.com/danbogd/Training.git
+git remote -v // проверка правильно "соединили" локальный репозиторий с удаленным 
 git push -u origin master
 
 
 
 
-$ mkdir myproject
-$ cd myproject
-$ npm init -y
-$ npm install truffle
-$ npx truffle init
 
-To install the OpenZeppelin library, run the following in your Solidity project root directory:
-
-$ npm install @openzeppelin/contracts
 
 
